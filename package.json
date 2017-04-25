@@ -1,0 +1,22 @@
+{
+  "name": "quoter-i-am",
+  "version": "1.0.0",
+  "description": "create random Yoda quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smcgee31/quoter-I-am.git"
+  },
+  "author": "Steve McGee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smcgee31/quoter-I-am/issues"
+  },
+  "homepage": "https://github.com/smcgee31/quoter-I-am#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}

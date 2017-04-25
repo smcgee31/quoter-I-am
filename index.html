@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quoter, I am!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.1/axios.min.js"></script>
+  <div class="wrapper">
+
+    <div class="leftSide">
+      <div class="card cardEffect">
+        <div id="quote">
+          <p id="quoteText">"You must click the button to get your quote"</p>
+        </div>
+        <div id="author">
+          <p>- Famous Author</p>
+        </div>
+        
+        <div class="button" onclick="getNewQuote()">New Quote</div>
+
+      </div>
+    </div>
+
+    <div class="rightSide">
+      <div class="card cardEffect">
+        <div id="yodaQuote">
+          <p id="yodaQuoteText">"Click the button to get your quote, you must."</p>
+        </div>
+        <div class="author" id="author">
+          <p>- Master Yoda</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
